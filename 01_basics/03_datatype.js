@@ -14,6 +14,25 @@ console.table([myName,myNumber,ha_ya_na,temp,js]);
 
 console.table([typeof(myName),typeof(myNumber),typeof(ha_ya_na),typeof(temp),typeof(js)]);
 
+/* DATA TYPE
+      1 primitive
+      2 non-primitive
+
+    Primitive - 1  stirng 
+                2  number
+                3 boolean
+                4 bigint
+                5 null
+                6 undefine
+                7 symbole
+            
+    non primitive 
+                1 array
+                2 objects
+                3 function
+                
+*/
+
 
 
 
