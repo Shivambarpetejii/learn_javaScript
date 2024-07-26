@@ -1,12 +1,16 @@
 //const is a keyword
 const acountID = 12345
+
 //let is also a keyword
 let acountEmail = "shivam13425@google.com"
+
 //var is a keyword
 var acountPassword = "1234444"
+
 // you use in case it is correct but not good 
 acountCity = "jaipur"
-// per variable use and not put the value
+
+// per variable use and not put the value return undefined
 let acountState;
 
 //acountID =12342 you can't change const again this is one time diclriation keyword

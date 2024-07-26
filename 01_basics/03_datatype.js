@@ -1,6 +1,8 @@
 "use strict"; // it is all code is treat on new version 
+
 //alert("hello");  we can use node js not browser
-// perttier sre use for code formeting 
+
+// perttier enstcation use for code formeting 
 
 
 let myNumber = 123456;
