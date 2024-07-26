@@ -46,7 +46,7 @@
 // console.log(objAns3);
 
 
-// //step no -4 
+// //step no -4  sepreted all key ,keyvalue , entries,
 // const obj1 = {1:"a",2:"b",3:"c",4:"d",5:"e",6:"f"};
 
 // const objKey = Object.keys(obj1);
@@ -60,3 +60,29 @@
 
 // const objIs = obj1.hasOwnProperty('5');
 // console.log(objIs);
+
+
+// //step no-5 destructureching ways
+// const course = {
+//     courseName : "javaScript Hello",
+//     price : "432",
+//     whoIam : "shivam"
+// }
+
+// console.log(course.whoIam); //this is write but you can use more time then hey will not write way
+
+// const {whoIam} =course;
+// console.log(whoIam);
+
+// const {whoIam:namee} =course;
+// console.log(namee);
+
+/*step no -6  api knowledge
+ 001:- database always send the data in json formet 
+ 002:- json - javaScript object Notetion
+ 003:- json formet is both object and array
+ 004:- {}
+ 005:-[{},{},{}]
+
+*/
+
