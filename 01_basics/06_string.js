@@ -6,7 +6,7 @@ console.log(name+repo+"hii");
 
 // string intpoletion 
 
-console.log(`hii my name is ${name} barpete and my repo cpount ${repo}`);//it is good and best prectice intopolation
+console.log(`hii my name is ${name} barpete and my repo cpount ${repo}`);   //it is good and best prectice intopolation
 
 // new string syntex
 
@@ -16,4 +16,10 @@ console.log(gameneme);
 console.log(gameneme.length);
 console.log(gameneme.toUpperCase());
 console.log(gameneme.charAt(2));
+console.log(gameneme.indexOf('a'));
+console.log(gameneme.substring(0,4));
+console.log(gameneme.slice(-8,4))  //aap - mebhi value de skkte h 
 
+let name2 = "    shivam     ";
+console.log(name2);
+console.log(name2.trim());
