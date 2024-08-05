@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fourHTML</title>
+</head>
+<body>
+    <h1>HIII4</h1>
+    <ul class="language">
+        <li>Java</li>
+    </ul>    
+    
+</body>
+
+<script>
+    function addlang(langg)
+    {
+        const newlang = document.createElement('li');
+        newlang.innerText = `${langg}`;
+        document.querySelector('ul').appendChild(newlang);
+
+    }
+
+    addlang('python');
+
+    function optiaddlang(langg)
+    {
+        const newlang = document.createElement('li');
+        newlang.appendChild(document.createTextNode(`${langg}`));
+        document.querySelector('ul').appendChild(newlang);
+
+    }
+    optiaddlang('c++');
+
+</script>
+</html>

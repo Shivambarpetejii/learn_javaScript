@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-Document_Object_Model</title>
+</head>
+<body>
+    <div class="perent">
+        <div class="day">Sunday</div>
+        <div class="day">Monday</div>
+        <div class="day">Thusday</div>
+        <div class="day">Wenesday</div>
+    </div>
+
+    
+</body>
+<script>
+    const parentClass = document.querySelector('.perent');
+    // console.log(parentClass);
+    // console.log(parentClass.children);
+    // console.log(parentClass.children[2].innerHTML);
+
+    //html collection kon de rha h parent.children 
+
+    for(let i=0; i<parentClass.children.length; i++)
+{
+       //console.log(parentClass.children[i].innerHTML);
+       
+}
+
+// parentClass.children[1].style.color='red';
+
+// console.log(parentClass.firstElementChild.innerHTML);
+// console.log(parentClass.lastElementChild.innerHTML);
+
+// child -> parent
+
+const child = document.querySelector('.day');
+console.log(child.innerHTML);
+console.log(child.parentElement);
+console.log(child.parentElement.innerHTML);
+
+console.log(child.nextElementSibling.innerHTML);
+
+
+
+
+
+
+
+
+
+
+    
+</script>
+</html>
