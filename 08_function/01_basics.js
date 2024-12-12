@@ -242,6 +242,136 @@ Arrow Function :-   Arrow funcation is one of the most ussed and effecient metho
 
 
 
+//function Constructor
+
+
+// we can create the instance using new keyword
+
+
+// function Person(name,age)
+// {
+//     this.name= name;
+//     this.age= age;
+
+
+// }
+
+
+// let person = new Person("shivam",45);
+
+// console.log(typeof person); //object 
+
+// console.log(person);//object
+
+// console.log(person.name);
+
+
+
+///parameter in funcation 
+
+
+// 01 - default parameter in js
+
+
+
+// (function ans1( value =1, value1){
+//    console.log(value);
+//    console.log(value1);
+    
+
+// })();
+
+
+
+// // rest parameter 
+
+// (function ans1(...num){
+//     console.log(typeof num);//object
+
+//     for(let i=0; i<num.length; i++)
+//     {
+//         console.log(num[i]);
+        
+//     }
+    
+     
+ 
+//  })(2,3,4,5,5,6,7);
+
+
+
+
+// Argument object
+
+
+// (function ans1(){
+//     console.log(typeof arguments);//object
+
+//     for(let i=0; i<arguments.length; i++)
+//     {
+//         console.log(arguments[i]);
+        
+//     }
+    
+     
+ 
+//  })(2,3,4,5,5,6,7);
+
+
+
+//Argument pass by value
+
+// it is send the copy of the variable does not send the add
+
+// let ans1 = (name)=>{
+//     console.log(name);
+
+//     name = "barpete";
+
+//     console.log(name);// this is only copy not org
+    
+    
+// }
+
+// let name= "shivam";
+// ans1(name);
+
+// console.log(name);
+
+
+
+// object passed by refrence
+
+// function ans3(ans){
+//     console.log(ans);
+
+//     ans.age=34;
+       
+// }
+
+
+// let ans = {
+//     name:"shivam",
+//     age:45
+// }
+// ans3(ans);
+
+// console.log(ans);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
