@@ -99,6 +99,109 @@ console.log(obj8);
 console.log(obj8);
 
 
+*********************************************************************************************************************************************
+*********************************************************************************************************************************************
+
+
+Question no 2 :=====. What are the different data types present in javascript
+
+// data_type in javascript 
+
+//1.primotive Data type == this is immutable and directly stroed into memory
+
+//A.string === it is represent and stroed thie series of chrrecter in memory
+
+let type01 = "shivam barpete";//this is double quotes
+let type02 = 'shivam barpete jii'//this is single quotes
+let type03 = `shivam barpete jii jii`//this is template literals (ES6)
+
+console.log(`${type01}....${type02}....${type03}`)// this is template literals to provide to faclities write string and also implement variables , javascript is ${} under this sighn
+
+//B number === representing the interger values and floating values
+
+let number01 = 12;//this is interger values
+let number02 = 12.12// this is float values
+let number03 = Infinity//this is INFINITY value in positive side
+let number04 = -Infinity//this is -INFINITY value in Nagetive side
+let number05 = NaN // this is not a number 
+
+console.log(
+`this is interger value === ${number01}:${typeof(number01)}
+this is float values === ${number02}:${typeof(number02)}
+this is INFINITY value in positive side === ${number03}:${typeof(number03)}
+this is -INFINITY value in Nagetive side === ${number04}:${typeof(number04)}
+this is not a number  === ${number05}:${typeof(number05)}`
+)
+
+//C Bigint === represent all big number 
+
+let biginttype = 12342n;
+console.log(`${biginttype}:${typeof(biginttype)}`)
+
+//D undefiend values === vaiable decleered but not assign 
+
+var x;
+console.log(`${x}:${typeof(x)}`)
+
+// E NULL ==== represents a non existent vluse and invalid value
+var z =null;
+console.log(`${z}:${typeof(z)}`)
+
+// F boolean valu have logical values like true ans false 0 and 1
+let y = false;
+let a = true;
+console.log(`${y}:${typeof(y)}`)
+console.log(`${a}:${typeof(a)}`)
+
+// symbol === representing the anonymous value and unque value
+
+var smy1 = Symbol('id');
+var smy2 = Symbol('id');
+console.log(`${typeof(smy1)}`)
+console.log(`${typeof(smy2)}`)
+console.log(smy1==smy2)
+console.log(smy1===smy2)
+
+
+// 2 Non primmitive data in javascript
+
+//to store the mutable, muultipale and complex value
+//store by refrence
+
+//A Object == storeed structured data and it is the collection of key- value pain in between {}
+
+let obj10 = {name : "shiva"};
+console.log(`${obj10} ======= type of object=======${typeof(obj10)}`);
+
+// B Array == is stores the ordered data collection 
+//store multipale values 
+
+let arr = [10,2,2,2,2,2];
+console.log(`${arr} ======= type of array=======${typeof(arr)}`);
+
+//C Function === function is block of code that is use multiple time in our code  it is also object 
+
+let fun = ()=>{return 123};
+console.log(`${fun} ======= type of function=======${typeof(fun)}`);
+
+//D Date add in ES6 represent the current time and date
+
+let date = new Date();
+console.log(`${date} ======= type of date=======${typeof(date)}`);
+
+*********************************************************************************************************************************************
+*********************************************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
 
 
 
