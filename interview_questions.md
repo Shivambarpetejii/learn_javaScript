@@ -192,16 +192,61 @@ console.log(`${date} ======= type of date=======${typeof(date)}`);
 *********************************************************************************************************************************************
 *********************************************************************************************************************************************
 
+2. Explain Hoisting in javascript.
+3. 
+//hosting with function
+name();
+function name(){
+    console.log("hello")
+}//this meains funcation are sport hosting case in js 
+
+
+//hosting with var
+console.log(a)
+var a="shivam";
+console.log(a);//this case var hosting sport hosting but before decreing return undefind
+
+// //hosting with let and const 
+// console.log(b)
+// let b;
+//  b="ram";
+ 
+ //hosting with function expression 
+ console.log(sum(a,b));
+ var sum =  function(a=6,b=5){
+     return a+b;
+ }
+*********************************************************************************************************************************************
+*********************************************************************************************************************************************
+3. Why do we use the word “debugger” in javascript?
 
 
 
+*********************************************************************************************************************************************
+*********************************************************************************************************************************************
+4. Difference between “ == “ and “ === “ operators.
+ var a=2;
+var b="2";
+
+console.log(a==b);
+console.log(a===b)
+
+*********************************************************************************************************************************************
+*********************************************************************************************************************************************
 
 
+What is the difference between Call, Apply and Bind
 
 
+function greet(message, course){
+    console.log(`${message } tune ${this.name} yr ${course }vala course`)
+    
+}
 
-
-
+const persion={name : "shivam barpete"};
+const persion1={name : "krishna barpete"};
+greet.call(persion,"englisdh" ,"kya bni h re")
+greet.call(persion1,["englisdh" ,"Kya bni h re"])
 
 
 
